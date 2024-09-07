@@ -9,6 +9,22 @@ h1, h2, h3, h4, h5, h6 {
     transition: color 0.3s ease; /* Smooth color transition */
   }
   
+   /*Mobile Device Modifications */
+html {
+  height: -webkit-fill-avalable;
+}
+
+/*Body adjustments*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: auto;
+  height: 100vh;
+  height: -webkit-fill-avalable;
+}
+
   /* Portfolio Section */
   #portfolio {
     background-color: #000; /* Black background */
