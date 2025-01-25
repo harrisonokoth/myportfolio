@@ -121,8 +121,15 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 1000;
   }
+.custom-bluegreen {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: white; /* Keeps text visible */
+  font-weight: bold; /* Makes the percentage stand out */
+}
+
   
   #back-to-top:hover {
     background-color: #0056b3;
+      
   }
   
